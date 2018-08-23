@@ -20,6 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imgview"
+                android:padding="12dp"
                 android:src="@drawable/img"/>
             <TextView
                 android:layout_marginTop="10dp"
@@ -42,6 +43,7 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
                 <LinearLayout
+                    android:gravity="center"
                     android:orientation="vertical"
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -50,12 +52,67 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Photos"
+                        android:paddingLeft="10dp"
                         android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="25"
+                        android:textColor="@color/startblue"
+                        android:shadowColor="#FEAAAA"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Followers"
+                        android:paddingLeft="10dp"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="5"
+                        android:textColor="@color/startblue"
+                        android:shadowColor="#FEAAAA"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Following"
+                        android:paddingLeft="10dp"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="25"
+                        android:textColor="@color/startblue"
+                        android:shadowColor="#FEAAAA"/>
                 </LinearLayout>
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
     </RelativeLayout>
-
-
 </LinearLayout>
